@@ -65,11 +65,41 @@ body{
     font-weight: bold;
 }
 
-
 ul{
     display: flex;
     list-style-type: none;
     padding-inline-start:0px;
     gap: 20px;
+}
+
+.information{
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.informationheader-text{
+    font-size: 38px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.information-cards{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    padding: 25px;
+    width: 150px;
+}
+
+.card-text{
+    font-size: 12px;
+    color: #37383b;
+    text-decoration: none;
+    text-align: justify;
 }
 
