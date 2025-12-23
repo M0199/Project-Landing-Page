@@ -15,9 +15,6 @@ body{
 .header-left,.header-right{
   display: flex;
   align-items: center;
-  margin-left: 8px;
-  margin-right: 8px;
-  gap: 16px;
 }
 
 .header-left{
@@ -118,7 +115,28 @@ ul{
 }
 
 .secondary-quote-text{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     text-align: right;
+}
+
+.register-background{
+    display: flex;
+    margin: 90px;
+    height: 150px;
+    background-color: #3882f2;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 12px;
+}
+
+.register-button{
+    background-color: #3882f2;
+    height: 40px;
+    width: 120px;
+    border-color: #E5E7EB;
+    border-radius: 12px;
+    border-style:solid;
+    color: #E5E7EB;
+    font-weight: bold;
 }
