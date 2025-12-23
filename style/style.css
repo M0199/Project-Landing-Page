@@ -3,7 +3,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.header, .landing{
+.header, .landing, .footer{
     /* Blue section CSS */
     background-color: #1F2937;
     display: flex;
@@ -139,4 +139,13 @@ ul{
     border-style:solid;
     color: #E5E7EB;
     font-weight: bold;
+}
+
+.footer{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+    font-size: 12px;
 }
