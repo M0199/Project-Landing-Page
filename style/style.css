@@ -3,10 +3,13 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.header{
+.header, .landing{
+    /* Blue section CSS */
     background-color: #1F2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
 .header-left,.header-right{
@@ -23,9 +26,45 @@ body{
     font-weight: bolder;
 }
 
-.header-right{
-    font-size: 14px; 
+.landing{
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+
+.landing-left,.landing-right{
+  display: flex;
+  margin-left: 8px;
+  margin-right: 8px;
+  gap: 16px;
+}
+
+.landing-left{
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+}
+
+.main-text{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.secondary-text{
+    font-size: 12px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.sign-button{
+    background-color: #3882f2;
+    height: 40px;
+    width: 120px;
+    border-radius: 12px;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
 
 ul{
     display: flex;
@@ -34,8 +73,3 @@ ul{
     gap: 20px;
 }
 
-a{
-    text-decoration: none;
-    color: #E5E7EB;
-    
-}
