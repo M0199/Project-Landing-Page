@@ -72,11 +72,11 @@ ul{
     gap: 20px;
 }
 
-.information{
+.information, .quote{
     padding-left: 120px;
     padding-right: 120px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .informationheader-text{
@@ -103,3 +103,22 @@ ul{
     text-align: justify;
 }
 
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.mainquote-text{
+    color: #1f2937;
+    font-weight: lighter;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.secondary-quote-text{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
